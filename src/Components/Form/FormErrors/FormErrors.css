@@ -1,1 +1,11 @@
-
+.formErrors{
+    position: absolute;
+    bottom: 5px;
+	left: 0;
+    visibility: hidden;
+}
+.has-error .formErrors{
+    visibility: visible;
+    color: red;
+    font-size: 13px;
+}
